@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-image
+{
+    
+    background:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.8)),url("Background.jpg");
+    width: 97%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    border-radius: 30px;
+    margin-top: 25px;
+
+}
+nav
+{
+    display: flex;
+}
+.block-1
+{
+    margin-top: 30px;
+    margin-left: 100px;
+    color: rgb(228, 216, 216);
+    font-size: x-large;   
+    transition: color 0.3s ease-in-out;
+}
+.block-1:hover
+{
+    color: white;
+}
+.block-2
+{
+    color: rgb(228, 216, 216);
+    font-size: large;
+    display: flex;
+    width: 80%;
+    margin-top: 30px;
+    justify-content:center;
+}
+.block-2 p
+{
+    transition: color 0.3s ease-in-out;
+    margin-right: 60px;
+    
+}
+.block-2 p:hover
+{
+    color: white;
+}
+
+
+.block-3
+{
+    color:rgb(228, 216, 216);
+    font-size: large;
+    display:flex;
+    margin-top:30px;
+    margin-right:100px;
+    width:50px;
+    transition:color 0.3s ease-in-out;
+}
+.block-3 i
+{
+    margin-top: 2px;
+}
+.block-3 p
+{
+    margin-left: 12px;
+}
+.block-3:hover
+{
+    color: white;
+}
+.Hero-text
+{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+.main-text
+{
+    color: white;
+    font-weight: 500;
+    font-size: 5rem;
+    margin-bottom: ;
+}
+.main-text p
+{
+
+    font-size: 1.2rem;
+}
+
+
+
