@@ -90,13 +90,13 @@ nav
 .Hero-text
 {
     display: flex;
-    height: 400px;
+    height: 50%;
     width: 100%;
     
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 9rem;
 
 }
 .main-text
