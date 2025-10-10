@@ -289,20 +289,21 @@ nav
     display: flex;
     justify-content: center;
     gap: 30px;
+    height: 100vh;
     /* flex-wrap: wrap; */
 }
 
 .service-card {
     background-color: #3d3d3d;
     border-radius: 15px;
-    width: 33%;
+    width: 20%;
     padding: 20px;
     transition: transform 0.3s;
     gap: 10px;
 }
 
 .service-card:hover {
-    transform: scale(1.2)
+    transform: scale(1.1)
 }
 
 .service-card img {
