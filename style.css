@@ -358,3 +358,143 @@ body {
     border: none;
     cursor: pointer;
 }
+
+body {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: inter;
+    padding-bottom: 4000px;
+}
+
+.img1-box {
+    margin-bottom: 100px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.img1-box .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c3102c0;
+}
+
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.title {
+    color: #e030ac;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    color: #1C3102;
+
+}
+
+.subheading1 {
+    flex: 1;
+    font-size: 40px;
+    max-width: 550px;
+    padding-right: 40px;
+    font-weight: 600;
+}
+
+.subheading2 {
+    flex: 1;
+    font-size: 18px;
+    line-height: 24px;
+    color: #39580F;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+}
+
+.feature-box {
+    margin-bottom: 50px;
+    margin-right: 40px;
+}
+
+.feature-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.checkmark {
+    color: #e030ac;
+}
+
+.feature-content {
+    color: #39580F;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.container2-img {
+    flex: 1;
+}
+
+.img2 {
+    max-width: 100%;
+    height: 300;
+    border-radius: 20px;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.container2-subheading1 {
+    font-size: 40px;
+    max-width: 550px;
+    padding-right: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.container2-subheading2 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #39580F;
+}
+
+.learn-more-button {
+    color: #e030ac;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
